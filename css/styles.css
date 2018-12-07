@@ -1,0 +1,165 @@
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+  	color: #40514e;
+  	text-align: center;
+}
+
+.big-text {
+	font-size: 3.5rem;
+	line-height: 1.5;
+	text-align: left;
+}
+
+h2 {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+/*Title*/
+
+
+
+
+/*Containers*/
+.container-fluid {
+	padding: 3% 15% 7%;
+}
+
+/*Sections*/
+
+.section-headings {
+	font-size: 3.5rem;
+	line-height: 1.5rem;
+}
+
+.section-padding {
+	padding: 50px 30px;
+}
+
+.colored-section {
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+#testimonials {
+	background-color: #ef8172;
+}
+
+.white-section {
+	background-color: #fff;
+}
+
+/*Naivgation bar*/
+.navbar {
+ padding: 0 0 4.5rem;
+}
+.nav-item {
+	padding: 0 18px;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+
+}
+.navbar-brand {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 500;
+	color: #fff;
+}
+
+/*Download buttons*/
+.download-btn {
+	margin: 5% 3% 5% 0;
+}
+
+/*Title image*/
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  
+}
+
+/*Features*/
+#features {
+	position: relative;
+}
+
+.feature-box {
+	padding: 4.5%;
+}
+
+.feature-box p {
+	color: #8f8f8f;
+}
+
+.feature-box h3 {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+/*Icons*/
+.icon {
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+
+.icon:hover {
+	color: #ff4c68;
+}
+
+/*Testimonials section*/
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+/*Carousel*/
+
+
+/*Press*/
+#press {
+	padding-bottom: 3%;
+	background-color: #ef8172;
+}
+
+.press-logo {
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+
+#pricing {
+	padding: 100px;
+}
+
+.pricing-column {
+	padding: 3% 2%;
+}
+
+/*CTA*/
+
+/*Footer*/
+#footer {
+	color: #777;
+	font-size: 1rem;
+}
+	
+/*Social Icons*/
+.social-icon {
+	margin: 20px 10px;
+}
+
+/*Media queries*/
+@media (max-width: 1028px) {
+	#title {
+		text-align: center;
+	}
+	.title-image {
+		position: static;
+		transform: rotate(0);
+	}
+}
